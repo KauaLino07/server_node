@@ -1,0 +1,19 @@
+{
+  "name": "kauaeamigos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KauaLino07/server_node.git",
+  "license": "MIT",
+  "dependencies": {
+    "Express": "^3.0.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "dev": "nodemon --watch ./src/**/* ./src/server",
+    "start": "node ./src/server"
+  }
+}
